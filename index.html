@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Student Management</h1>
+        <div id="studentForm">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="surname" placeholder="Surname">
+            <input type="number" id="age" placeholder="Age">
+            <input type="number" id="score1" placeholder="Score 1">
+            <input type="number" id="score2" placeholder="Score 2">
+            <input type="number" id="score3" placeholder="Score 3">
+            <input type="number" id="score4" placeholder="Score 4">
+            <input type="number" id="score5" placeholder="Score 5">
+            <button id="addStudentButton">Add Student</button>
+        </div>
+        <div id="controls">
+            <button id="calculateAverageButton">Calculate Averages</button>
+            <button id="sortByNameButton">Sort by Name</button>
+            <button id="sortByAgeButton">Sort by Age</button>
+            <button id="sortByScore1Button">Sort by Score 1</button>
+            <button id="sortByScore2Button">Sort by Score 2</button>
+            <button id="sortByScore3Button">Sort by Score 3</button>
+            <button id="sortByScore4Button">Sort by Score 4</button>
+            <button id="sortByScore5Button">Sort by Score 5</button>
+            <input type="number" id="threshold" placeholder="Threshold">
+            <button id="filterByThresholdButton">Filter by Threshold</button>
+            <button id="sortDescendingButton">Sort Descending</button>
+        </div>
+        <pre id="output"></pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
